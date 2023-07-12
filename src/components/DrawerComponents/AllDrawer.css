@@ -1,0 +1,431 @@
+
+/*---------------------------------------------------------
+*
+**********  YourJobDrawer Component Style Start  ******
+*
+*---------------------------------------------------------*/
+
+.container{
+    background-color: var(--Background);
+    position:absolute;
+    width: 443px;
+    height:100vh;
+    top:0px;
+    right: 0px;
+    box-shadow: 0px 7px 20px 0px #00000F;
+}
+.container>div{
+    padding:3%;
+    display: grid;
+    gap: 13px
+}
+
+.heading{
+    display:flex;
+    justify-content:space-between;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--HeadingText);
+}
+
+.heading__text{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--Primary);
+}
+
+.heading__cross{
+    cursor:pointer;
+}
+
+.drawer__search{
+    width: 90%;
+    height: 27px;
+    padding: 6px 9px;
+    border-radius: 8px;
+    border: 1px solid #B1B1B1;
+    gap: 10px;
+    display:flex;
+    align-items:center;
+}
+
+.drawer__search > input{
+    outline: transparent;
+    border: transparent;
+    width: 90%; 
+}
+
+/* .preference__data{
+    
+} */
+
+.job__header,.preference__header,.file__upload__header{
+    margin-bottom: 7px;
+    margin-top:0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--HeadingText);
+
+}
+
+.preference{
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid var(--Primary);
+    border-radius: 17px;
+    background-color: #EEF2FF;
+    padding: 7px;
+}
+
+.selected__job{
+    font-size: 16px;
+    font-weight: 400;
+    margin:5px 0px;
+    display: flex;
+    gap: 7px;
+}
+
+.unSelected__job,.instruction{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--BodyText);
+    margin:5px 0px;
+    display: flex;
+    gap: 7px;
+}
+
+
+
+
+.selected_check__box{
+    height: 24px;
+    width: 23px;
+    background-color: var(--Primary);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--Primary);
+}
+
+.unSelected_check__box{
+    height: 24px;
+    width: 23px;
+    border-radius: 3px;
+    border: 2px solid var(--NotSelect);
+}
+
+.preference>span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+
+
+}
+
+.preference__data{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:6px;
+    padding: 5px;
+}
+
+
+/*---------------------------------------------------------*\
+*
+**********  YourJobDrawer Component Style Completed  *******
+*
+*---------------------------------------------------------*/
+
+.upload__wrapper,.content__wrapper{
+    display:grid;
+    gap:7px;
+
+}
+
+.upload__header{
+    margin-bottom: 7px;
+    margin-top:0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--HeadingText);
+}
+.upload__details{
+    
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--BodyText);
+}
+
+
+.upload__file{
+    width: 90%;
+    height: 27px;
+    padding: 6px 9px;
+    border-radius: 8px;
+    border: 1px solid #B1B1B1;
+    gap: 10px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.upload__file> span{
+    color: var(--NotSelect);
+}
+
+.upload__note{
+   
+font-size: 12px;
+font-weight: 400;
+color: var(--BodyText2);
+}
+
+.delete__file{
+    color: var(--Error);
+    cursor: pointer;
+}
+
+
+.subscription__header,.option__heading{
+    margin-bottom: 7px;
+    margin-top:0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--HeadingText);
+}
+
+.option__wrapper1{
+    border: 1px solid var(--Primary);
+    border-radius: 12px;
+    box-shadow: 0px 7px 20px 0px #0000000F;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding:7px 10px;
+}
+
+.option__wrapper1 > .wrapper__left{
+    display:flex;
+    flex-direction: column;
+    width:81%;
+    gap:3px;
+}
+
+.note{
+
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--BodyText);
+
+}
+
+.option__wrapper2{
+    border: 1px solid var(--Gold);
+    border-radius: 12px;
+    padding:7px 10px 7px 10px;
+    box-shadow: 0px 7px 20px 0px #0000000F;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 7px 10px;
+}
+
+.subscription__wrapper__inner{
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscription__wrapper__inner>div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.gold__separator{
+    width: 95%;
+    border: 1px solid var(--Gold);
+}
+
+.price{
+    font-size: 16px;
+    color: var(--Primary);
+    font-weight: 500;
+}
+
+.offer{
+    font-size: 12px;
+    background: var(--Primary);
+    color: var(--Background);
+    padding: 3px 6px;
+    margin-left: 8px;
+    border-radius: 11px;
+}
+
+.advice{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.text__center{
+    text-align: center;
+}
+
+.option__wrapper3{
+    border: 1px solid var(--Primary);
+    border-radius: 12px;
+    box-shadow: 0px 7px 20px 0px #0000000F;
+    display:flex;
+    gap:10px;
+    padding:7px 10px;
+    flex-direction: column;
+
+}
+
+.upgrade__subscription{
+    color: var(--Background);
+    width: 96%;
+    height: 52px;
+    background: var(--Secondary);
+    margin: 0px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+
+/*  *********************
+*/
+
+
+.message__wrapper{
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+}
+.message{
+    border: 1px solid var(--Stroke);
+    border-radius: 10px;
+    color: var(--BodyText);
+    font-size: 14px;
+    background: var(--Background);
+    padding: 11px;
+}
+
+.copy__to__clipboard{
+    display:flex;
+    gap: 7px;
+    width: fit-content;
+    margin: auto;
+    cursor:pointer;
+    color: var(--Primary);
+    align-items: center;
+}
+
+.icon__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon__container>section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    cursor: pointer;
+}
+
+.icon__container>section>span{
+    font-size:12px;
+}
+
+.icon__container>section>div{
+    height: 40px;
+}
+
+/*-----------------------------------
+
+*/
+
+.hiring__container{
+    border-radius:12px 12px 0px 0px;
+    background: linear-gradient(180deg, #F6F9FF 0%, #5197FF 100%);
+    ;
+}
+
+.process__img{
+    margin: auto;
+    height: 122px;
+    width: 122px;
+}
+
+.hiring__process__instructions{
+    background-color: var(--Background);
+    border-radius: 12px 12px 0px 0px;
+    padding:16px;
+}
+
+
+
+.hiring__process__title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hiring__process__instructions{
+    border: 1px solid var(--Stroke);
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 7px 20px 0px #0000000F;
+    padding: 11px 19px;
+    overflow:hidden;
+}
+
+.hiring__process__instructions>section{
+    box-shadow: 0px 7px 20px 0px #0000000F;
+    padding:5px 5px 5px 25px;
+    position:relative;
+
+}
+
+.hiring__process__instructions>section>p{
+    margin:0px;
+    margin-bottom:7px;
+}
+
+.badge{
+    position: absolute;
+    background-color: var(--Primary);
+    color: var(--Background);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    left:-6px;
+    top:35px;
+}
+
+.verticalRule{
+    position: absolute;
+    border: 1px dashed var(--Primary);
+    height: 95px;
+    left: 2px;
+    top: 35px;
+    width: 0px;
+
+}

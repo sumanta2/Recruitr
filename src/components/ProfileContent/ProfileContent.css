@@ -1,0 +1,14 @@
+.ProfileContent{
+    padding:0px 30px;
+}
+
+.ProfileContent > h2{
+    margin: 10px 0px;
+}
+.content{
+    border: 2px solid var(--Stroke);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 330px auto;
+    gap: 0.5rem;
+}

@@ -1,0 +1,24 @@
+ :root {
+  /*max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;*/
+  --Primary:#1363DF;
+  --BodyText:#6A7A80;
+  --BodyText2:#9AA7AC;
+  --Secondary:#232323;
+  --Error:#FF3939;
+  --Stroke:#DADADA;
+  --DropdownBackground:#DFE6EB;
+  --Background:#FFFFFF;
+  --HeadingText:#171717;
+  --NotSelect:#B1B1B1;
+  --Gold:#FBBC05;
+}
+body {
+  height: 95vh;
+} 
+
+
+
+

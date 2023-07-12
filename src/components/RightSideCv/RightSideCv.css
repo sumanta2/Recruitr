@@ -1,0 +1,95 @@
+.Container{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Heading{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--Primary);
+}
+
+.CvContainer{
+    display:flex;
+    gap: 2rem;
+}
+
+.CvWrapper{
+    width: 122.857px;
+    height: 190.963px;
+    border-radius: 6.677px;
+    border: 0.668px solid var(--Primary);
+    background: #FFF;
+    box-shadow: 0px 4.67391300201416px 13.354036331176758px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.CvPic{
+    Width:86px;
+    Height:124.86px;
+    border-radius: 3x;
+    border: 0.334px solid var(--HeadingText);
+}
+
+.RadioOuter{
+    border-radius: 50%;
+    border: 1px solid var(--Stroke);
+}
+
+.RadioOuterSelect{
+    border-radius: 50%;
+    border: 1px solid var(--Primary);
+}
+
+.RadioInner{
+    display: block;
+    border-radius: 50%;
+    width: 10.025px;
+    height: 10.025px;
+    background-color: transparent;
+    margin:2px;
+    cursor: pointer;
+}
+
+.RadioInnerSelect{
+    display: block;
+    border-radius: 50%;
+    width: 10.025px;
+    height: 10.025px;
+    background-color: var(--Primary);
+    margin:2px;
+    cursor:pointer;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.myBtn{
+    width: 154px;
+    height: 42px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background: var(--Secondary);
+    color: var(--Background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}

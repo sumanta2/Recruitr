@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    width: 96vw;
+    color:var(--BodyText);
+    border-top: 2px solid var(--Stroke);
+    padding-top: 5px;
+    margin-top: 8px;
+}
+.footer__right{
+    display: flex;
+    gap:15px;
+}

@@ -1,0 +1,41 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+
+/* body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+ */
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: vara(--Primary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--themeRed);
+  border-radius: 1rem;
+  color:red;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--Primary);
+  /* color:red; */
+}
+
+
+
+
